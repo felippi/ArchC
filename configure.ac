@@ -143,7 +143,7 @@ AM_CONDITIONAL([HLT_SUPPORT], [ test "x$disable_hlt" != "xyes" -a "x$have_libelf
 
 # Sets global flags
 CFLAGS="$CFLAGS -Wall"
-CXXFLAGS="$CXXFLAGS -Wall -std=c++03"
+CXXFLAGS="$CXXFLAGS -Wall -std=c++11"
 
 # Checks for libraries.
 
